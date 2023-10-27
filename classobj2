@@ -1,0 +1,21 @@
+class employe
+{
+	
+	 int id;
+	 String name;
+	 
+	 
+}
+public class classex {
+
+	public static void main(String[] args) {
+		
+employe e1=new employe();
+e1.id=12;
+e1.name="subhu";
+System.out.println(e1.id);
+System.out.println(e1.name);
+
+	}
+
+}
