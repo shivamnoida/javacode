@@ -1,0 +1,39 @@
+class employee
+{
+	 int id;
+	 String name;
+	 int salary;
+	 
+}
+public class classex1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		employee a=new employee();
+		employee b=new employee();
+		employee c=new employee();
+		employee d=new employee();
+		//this isuse to print  the  address of object
+		System.out.println(a);
+		//enter the input
+		a.id=12;
+		a.name="ram";
+		a.salary=12000;
+		b.id=13;
+		b.name="rom";
+		b.salary=120000;
+		c.id=121;
+		c.name="raaam";
+		c.salary=12300;
+		d.id=145;
+		d.name="rrram";
+		d.salary=120500;
+		System.out.println(a.id+" "+a.name+" "+ a.salary);
+		
+		System.out.println(b.id+" "+b.name+" "+ b.salary);
+	
+		System.out.println(c.id+" "+c.name+" "+ c.salary);
+		System.out.println(d.id+" "+d.name+" "+ d.salary);
+		}
+
+}
