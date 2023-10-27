@@ -1,0 +1,65 @@
+
+		
+	 class employ
+	{
+		 int id;
+		 String name;
+		 int salary;
+		 void input(int i,String n,int s)
+		 {
+			 id=i;
+			 name=n;
+			 salary=s;
+		 }
+		 void display()
+		 {
+			  System.out.println(id+" "+name+" "+ salary);
+		 }
+		 
+	}
+
+public class classex2fun {
+
+	public static void main(String[] args) {	 
+
+		
+			// TODO Auto-generated method stub	
+           	employ a=new employ();
+			employ b=new employ();
+			employ c=new employ();
+			employ d=new employ();
+			//this is use to print  the  address of object
+			System.out.println(a);
+			//enter the input
+			a.id=12;
+			a.name="ram";
+			a.salary=12000;
+			b.id=13;
+			b.name="rom";
+			b.salary=120000;
+			c.id=121;
+			c.name="raaam";
+			c.salary=12300;
+			d.id=145;
+			d.name="rrram";
+			d.salary=120500;
+			System.out.println(a.id+" "+a.name+" "+ a.salary);
+			
+			System.out.println(b.id+" "+b.name+" "+ b.salary);
+		
+			System.out.println(c.id+" "+c.name+" "+ c.salary);
+			System.out.println(d.id+" "+d.name+" "+ d.salary);
+			a.input(133, "moonu", 13444);
+			b.input(22, null, 4567);
+			c.input(24, null, 666);
+			d.input(34, null, 666);
+			a.display();
+			b.display();
+			c.display();
+			d.display();
+			}
+
+	}
+
+
+
